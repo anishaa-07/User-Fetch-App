@@ -1,0 +1,15 @@
+  body{font-family:Arial;transition:.3s;padding:35px;text-align:center;background:#f2f2f2}
+  .dark{background:#1a1a1a;color:#fff}
+  table{width:75%;margin:20px auto;border-collapse:collapse;background:#fff;border-radius:6px;overflow:hidden}
+  .dark table{background:#222;color:#fff}
+  th,td{border:1px solid #ccc;padding:12px;font-size:16px}
+  th{background:#333;color:#fff}
+  .dark th{background:#555}
+  button{padding:10px 20px;font-size:16px;border:none;border-radius:5px;cursor:pointer;margin:10px}
+  #refresh{background:#007bff;color:#fff}
+  #mode{background:#222;color:#fff}
+  input{padding:10px;width:280px;border:2px solid #ccc;border-radius:6px;margin-top:10px;font-size:16px}
+  .pagination button{padding:8px 14px;margin:4px;border-radius:4px;border:none;background:#444;color:#fff;font-size:15px}
+  .pagination button.active{background:#007bff}
+  #loader{width:32px;height:32px;border:4px solid #ccc;border-top-color:#007bff;border-radius:50%;margin:20px auto;display:none;animation:spin 1s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
